@@ -31,26 +31,26 @@ class parking
 {
 	public static void main(String [] args)
 	{
-		int r = 3;
-		int c = 3;
-		int [][] arr = {{1, 1, 0}, {1, 1, 1}, {1, 0, 0}};
+		int [][] a= {{1,1,0},{1,0,0},{1,1,1}};
+		int r=3;
+		int c=3;
 		int max=0;
-		int index = 0;
-		for(int i=0; i<r; i++)
-		{
-			int count = 0;
+		int index=0;
+		
+
+		for(int i=0; i<r;i++)
+		{	
+			int count =0;
 			for(int j=0; j<c; j++)
 			{
-				if(arr[i][j] == 1)
+				if(a[i][j] == 1)
 				{
-					 count++;
+					count++;
 				}
-				  
 			}
-			
-			if(count>max)
+			if(count > max)
 			{
-				max = count;
+				max=count;
 				index = i+1;
 			}
 		}
