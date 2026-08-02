@@ -1,4 +1,4 @@
-// Find the length of rlongest subarray whose sum is less than or equal to k.
+// Find the length of longest subarray whose sum is less than or equal to k.
 class LongestSubarray
 {
 	public static void main(String [] args)
