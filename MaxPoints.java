@@ -1,5 +1,5 @@
 // Given an array of cards and each card gives you some points. Pick only 4 cards which gives maximum points. 
-// Condition : Either start with start or end.
+// Condition : Either start with left or right.
 //   Input:  array = [6, 2, 3, 4, 7, 2, 1, 7, 2]
 //   Output:  17
 
