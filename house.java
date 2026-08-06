@@ -112,17 +112,11 @@ class house
 		sum+=min;
 		}
 
-
-//System.out.println(sum);
 		if(sum<budget){
 			System.out.println("Minimum total painting cost:"+sum);
 		}
 		else{
 			System.out.println("-1");
 		}
-
 }
-
-
-
 }
