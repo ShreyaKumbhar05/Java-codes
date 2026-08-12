@@ -1,6 +1,6 @@
 //Uber
 
-class uber
+class budget
 {
 	public static void main(String [] args)
 	{
